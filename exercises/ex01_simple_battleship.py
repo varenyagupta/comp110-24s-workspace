@@ -1,6 +1,6 @@
 """EX01 - Simple Battleship - A cute step toward Battleship."""
- 
-__author__ = 730567934
+
+__author__ = "730567934"
 
 user_number: int = int(input("Pick a secret boat location between 1 and 4:"))
 BLUE_BOX: str = "\U0001F7E6"
@@ -59,11 +59,3 @@ if user_number == player_number:
     print("Correct! You hit the ship.")
 else:
     print("Incorrect! You missed the ship.")
-
-
-
-
-
- 
-      
-    
